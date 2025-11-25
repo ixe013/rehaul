@@ -1,0 +1,12 @@
+[package]
+name = "rehaul"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "*", features = ["derive", "env"] }
+age = "*"
+minisign-verify = "*"
+flate2 = "*"
+tar = "*"
+rpassword = "*"
